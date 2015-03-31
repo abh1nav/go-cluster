@@ -22,10 +22,10 @@ build: clean
 	@go build -o ./bin/go-cluster-$(version).bin main.go
 
 deps:
-	@glock sync -n github.com/abh1nav/go-cluster-test < Glockfile
+	@glock sync -n github.com/abh1nav/go-cluster < Glockfile
 
 update_deps:
-	@glock save -n github.com/abh1nav/go-cluster-test > Glockfile
+	@glock save -n github.com/abh1nav/go-cluster > Glockfile
 
 tools:
 	go get github.com/robfig/glock

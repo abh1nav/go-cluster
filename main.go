@@ -6,9 +6,9 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/abh1nav/go-cluster-test/api"
-	"github.com/abh1nav/go-cluster-test/cluster"
-	"github.com/abh1nav/go-cluster-test/utils"
+	"github.com/abh1nav/go-cluster/api"
+	"github.com/abh1nav/go-cluster/cluster"
+	"github.com/abh1nav/go-cluster/utils"
 	"github.com/zenazn/goji/graceful"
 )
 

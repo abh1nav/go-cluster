@@ -1,4 +1,4 @@
-#Go-Cluster-Test
+#Go-Cluster
 
 Basic clustering in go.
 
@@ -16,7 +16,7 @@ Basic clustering in go.
 
 It'll look like:
 
-![Seed Node](https://raw.github.com/abh1nav/go-cluster-test/master/img/seed_node.png)
+![Seed Node](https://raw.github.com/abh1nav/go-cluster/master/img/seed_node.png)
 
 4. Start another node and give it the seed's location  
   
@@ -28,8 +28,8 @@ It'll look like:
 
 It'll find the seed and output:
 
-![Cluster Member](https://raw.github.com/abh1nav/go-cluster-test/master/img/cluster_member.png)
+![Cluster Member](https://raw.github.com/abh1nav/go-cluster/master/img/cluster_member.png)
 
 The seed will then show:
 
-![Seed Reaction](https://raw.github.com/abh1nav/go-cluster-test/master/img/seed_reaction.png)
+![Seed Reaction](https://raw.github.com/abh1nav/go-cluster/master/img/seed_reaction.png)
